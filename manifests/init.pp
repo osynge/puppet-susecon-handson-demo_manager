@@ -5,6 +5,7 @@ class demo_manager {
     package { 'apache':
         ensure => latest,
         name => 'apache2',
+        allow_virtual => false
     }
     service { 'apache2':
         ensure  => "running",
