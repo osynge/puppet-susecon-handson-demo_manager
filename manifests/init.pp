@@ -1,7 +1,7 @@
 class demo_manager {
     $repo_base = "/srv/www/htdocs/ceph-demo"
-    $rpm_src = "/home/ec2-user/Devel\:Storage\:1.0\:SLE_12\:x86_64/download.suse.de/ibs/Devel\:/Storage\:/1.0/SLE_12/x86_64/"
-    $rpm_src2 = "/home/ec2-user/Devel\:Storage\:1.0\:SLE_12\:noarch/noarch/"
+    $rpm_src = "/home/ec2-user/SUSE-Storage-1.0-M1/dist.suse.de/install/SLP/SUSE-Storage-1.0-M1/x86_64/CD1/suse/x86_64/"
+    $rpm_src2 = "/home/ec2-user/SUSE-Storage-1.0-M1/dist.suse.de/install/SLP/SUSE-Storage-1.0-M1/x86_64/CD1/suse/noarch/"
     package { 'apache':
         ensure => latest,
         name => 'apache2',
